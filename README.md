@@ -2,4 +2,4 @@
 
 Third Time's the Charm
 
-By [JRando]
+By: JRando
