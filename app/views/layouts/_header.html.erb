@@ -8,14 +8,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to 'Almeria', root_path, class: "navbar-brand" %>
+      <%= link_to 'Almería', root_path, class: "navbar-brand" %>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to 'Home', root_path %></li>
         <li><%= link_to 'About', about_path %></li>  
-        <li><%= link_to 'Something Else', something_else_path %></li>  
+        <li><%= link_to 'Something Else', something_else_path %></li> 
+        <li><%= link_to 'Bodhi', bodhi_path %></li>
+        <% if user_signed_in? %>
+            <li><div style= "margin: 7px"><%= link_to 'Sign Out', destroy_user_session_path, class: "btn btn-success btn-default", method: :delete %></div></li> 
+            <% else %>
+            <li><div style= "margin: 7px"><%= link_to "Log In", new_user_session_path, class: "btn btn-success btn-default" %></div></li>
+            <% end %>
       </ul>
         </div>
         </div><!-- /.container --> 
