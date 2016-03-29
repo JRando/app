@@ -1,3 +1,3 @@
 AWS.config(
-access_key_id: '19913296969aad8b9f8181f4b4dc7b8897cf54bf87e42e8337dca42cc5ba624127b3419c1439cc9ae183cf955b4598849946955267bab867237f312dd17e9381',
-secret_access_key: '19913296969aad8b9f8181f4b4dc7b8897cf54bf87e42e8337dca42cc5ba624127b3419c1439cc9ae183cf955b4598849946955267bab867237f312dd17e9381')
+access_key_id: 'your_access_key',
+secret_access_key: 'your_secret_access_key')
