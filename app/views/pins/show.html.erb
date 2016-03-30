@@ -6,7 +6,7 @@
 <%= image_tag @pin.image.url(:medium) %>
 <div class='panel-body'>
 
-   <p>By: <strong><%= @pin.user.email if @pin.user %></strong></p>
+   <p>By: <strong><%= @pin.user.name if @pin.user %></strong></p>
 </p>
 <p>
   <%= @pin.description %>
