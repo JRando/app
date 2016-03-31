@@ -18,9 +18,9 @@
         <li><%= link_to 'Something Else', something_else_path %></li> 
         <li><%= link_to 'Bodhi', bodhi_path %></li>
         <% if user_signed_in? %>
-             <li><div style= "margin: 7px"><%= link_to 'Sign Out', destroy_user_session_path, class: "btn btn-success btn-default", method: :delete %></div></li> 
              <li><%= link_to raw('<span class="glyphicon glyphicon-flash" aria-hidden="true"></span> New Pin'), new_pin_path %></li>
              <li><%= link_to 'Account Settings', edit_user_registration_path %></li>
+             <li><div style= "margin: 7px"><%= link_to 'Sign Out', destroy_user_session_path, class: "btn btn-success btn-default", method: :delete %></div></li> 
             <% else %>
             <li><div style= "margin: 7px"><%= link_to "Log In", new_user_session_path, class: "btn btn-success btn-default" %></div></li>
             <% end %>
