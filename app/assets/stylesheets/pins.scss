@@ -3,16 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #pins {
-	margin: 0 auto;
+   margin: 0 auto;
 }
 
 .box {
-	margin: 5px;
-	width: 214px;
+   margin: 5px;
+   width: 214px;
 }
 
 .box img {
-	width: 100%;
+   width: 100%;
 }
 
 
@@ -20,12 +20,12 @@ div {
    word-wrap: break-word;
 }
 
-.text {
+.panel_body {
    overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
    line-height: 16px;     /* fallback */
-   max-height: 32px;      /* fallback */
-   -webkit-line-clamp: 2; /* number of lines to show */
+   max-height: 70.2px;      /* fallback */
+   -webkit-line-clamp: 3; /* number of lines to show */
    -webkit-box-orient: vertical;
 }

@@ -4,10 +4,13 @@ $body-bg: 	 					 #e67e22;
 $font-family-sans-serif:   		'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-default-bg:				 #34495e;
 $navbar-default-link-color: 	 #ecf0f1;
+$navbar-default-brand-color: 	 #F0E2D7;
+$brand-primary: 				 #333333;
 $btn-success-bg: 				 #f1c40f;
 $jumbotron-bg: 					 #ecf0f1;
 $well-bg: 						 #ecf0f1;
 $well-border: darken($well-bg, 7%);
+
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
